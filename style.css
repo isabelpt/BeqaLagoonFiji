@@ -106,7 +106,8 @@ body{
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Archivo', sans-serif;
   color: #666A86;
-  margin: 1%
+  margin-top: 1.5%;
+  margin-bottom: 0.5%
 }
 
 .title {
@@ -388,15 +389,13 @@ width: 560px;
 .image {
     display: block;
   margin: auto;
-height: 450px;
 width: 500px;
     float: left;
-    margin-top: 2%;
     margin-right: 5%;
-    margin-left: 5%;
+    margin-left: 10%;
 }
 .reserve_cap {
-    margin-left: 6%;
+    margin-left: 10%;
 }
 
 .slideshow {
@@ -420,6 +419,7 @@ width: 500px;
 }
 
 .text {
+  display: block;
   background-color:#F6F1E0; 
   padding: 1%;
   border-radius: 6px;
@@ -428,6 +428,7 @@ width: 500px;
   margin-left: 10%;
   list-style: none;
   line-height: 1.5em;
+  margin-bottom: 1%;
 }
 
 h1 {
@@ -435,4 +436,30 @@ h1 {
 }
 .subtitle {
   margin-left: 10%;
+}
+
+ul {
+    margin-left: 3%;
+}
+
+.stressor-container {
+    display: flex;
+    justify-content: left;
+    margin: 0 auto; /* Centers the container */
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.stressor-img {
+    display: flex;
+    flex-direction: column; /* Ensures figcaption stays under the image */
+    align-items: flex-start; /* Centers the caption */
+    width: 35%;
+}
+
+.stressor-img2 {
+    display: flex;
+    flex-direction: column; /* Ensures figcaption stays under the image */
+    align-items: flex-start; /* Centers the caption */
+    width: 40%;
 }
